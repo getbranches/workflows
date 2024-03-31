@@ -23,7 +23,6 @@ jobs:
       packages: write
       id-token: write
       contents: read
-    secrets: inherit
     
     uses: getbranches/workflows/.github/workflows/build-container.yaml@v1
 
