@@ -98,7 +98,7 @@ jobs:
 
         - name: Build and Push Container 🛠
           id: build-and-push
-          uses: docker/build-push-action@v5
+          uses: docker/build-push-action@v6
           with:
             context: ./
             file: ${{ inputs.container-file }}
