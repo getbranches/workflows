@@ -76,7 +76,7 @@ jobs:
 
         - name: Authenticate with Docker 🔑
           if: ${{ inputs.push-to-registry == true }}
-          uses: docker/login-action@v3
+          uses: docker/login-action@v4
           with:
             registry: europe-north1-docker.pkg.dev
             username: oauth2accesstoken
